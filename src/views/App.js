@@ -5,10 +5,17 @@ import Footer from './components/footer';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header />
-        <Footer />
-      </div>
+      <main>
+       <header>
+         <Header />
+       </header>
+       <div>
+         
+       </div>
+       <footer>
+         <Footer />
+       </footer>
+     </main>
     );
   }
 }
