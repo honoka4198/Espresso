@@ -8,13 +8,17 @@
 }
 
 #footerNavi li{
-  padding-left: 10px;
+  padding-left: 30px;
   display: inline;
   text-align: left;
 }
 
-a{
+a:link,a:visited{
   color: white;
+}
+
+a:hover{
+  color: blue;
 }
 
 #Copyright{
