@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/header';
 import Footer from './components/footer';
+import Sidelist from './components/sidelist';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
          <Header />
        </header>
        <div>
+         <Sidelist />
        </div>
        <footer>
          <Footer />

@@ -17,7 +17,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 //material-uiを使用してます
 //npm install --save material-ui必須。
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 
 const useStyles = makeStyles(theme => ({
   root: {

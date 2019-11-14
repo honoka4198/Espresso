@@ -7,7 +7,7 @@
   height:100px;
 }
 
-ul {
+.header_ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;

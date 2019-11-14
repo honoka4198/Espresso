@@ -10,7 +10,7 @@ class Header extends React.Component {
         <div className="header">
           <div className="box">
             <a href="#" align="left"><img src="favicon.ico" /></a>
-            <ul>
+            <ul className="header_ul">
               <li className="home_btn">
                 <Link to="/home">ホーム</Link>
                 <Route exact path='/Home' component={App} />
