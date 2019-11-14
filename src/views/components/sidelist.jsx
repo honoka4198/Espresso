@@ -11,13 +11,13 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 //import ListItemIcon from '@material-ui/core/ListItemIcon';
             //↑ここを任意のアイコン名にすればサイドメニューの各ボタンにアイコンを設定可能
-//<ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon> 
+//<ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
 import ListItemText from '@material-ui/core/ListItemText';
 
 //material-uiを使用してます
-//npm install --save material-ui必須。 
- 
-const drawerWidth = 240; 
+//npm install --save material-ui必須。
+
+const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -53,12 +53,12 @@ export default function Sidelist() {
         <List>
           {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
             <ListItem button key={text}>
-              {/*<ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>*/} 
+              {/*<ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>*/}
               <ListItemText primary={text} />
             </ListItem>
           ))}
         </List>
-        <Divider /> {/* ←横線 */} 
+        <Divider /> {/* ←横線 */}
         <List>
           {['All mail', 'Trash', 'Spam'].map((text, index) => (
             <ListItem button key={text}>
@@ -70,5 +70,3 @@ export default function Sidelist() {
     </div>
   );
 }
-
-  
