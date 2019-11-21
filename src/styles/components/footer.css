@@ -1,28 +1,6 @@
 .footer {
   width: 100%;
-  height: 50px;
-  background: rgb(122, 87, 20);
-  font-size: 75%;
-  color: white;
-  position: relative;
-}
-
-#footerNavi li{
-  padding-left: 30px;
-  display: inline;
-  text-align: left;
-}
-
-a:link,a:visited{
-  color: white;
-}
-
-a:hover{
-  color: blue;
-}
-
-#Copyright{
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  height: 100px;
+  text-align: center;
+  background: rgb(101, 73, 20);
 }
