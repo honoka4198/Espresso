@@ -16,15 +16,19 @@
 
 li {
   padding: 0 10px;
-  border-right: #ddd 1px solid;
+  /* border-right: #ddd 1px solid; */
 }
 
 .box{
   margin-bottom: 100px;
-  padding-right: 100px;
+  padding-right: 30px;
 }
 
-a{
-  color: white;
+
+.linktag{
   text-decoration: none;
+}
+
+.linktag:hover{
+  color: orange;
 }

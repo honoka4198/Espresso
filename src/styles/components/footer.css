@@ -1,6 +1,40 @@
 .footer {
   width: 100%;
-  height: 100px;
-  text-align: center;
-  background: rgb(101, 73, 20);
+  height: 50px;
+  background: rgb(122, 87, 20);
+  font-size: 75%;
+  color: white;
+  position: relative;
+}
+
+#footerNavi li{
+  display: inline;
+  margin-left: 1px;
+}
+
+#footerNavi{
+  color: white;
+  padding-left:16%;
+}
+
+a:link,a:visited{
+  color: white;
+}
+
+a:hover{
+  color: orange;
+}
+
+#Copyright{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.footer_linktag{
+  text-decoration: none;
+}
+
+.footer_linktag:hover{
+  color: orange;
 }
