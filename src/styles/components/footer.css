@@ -8,9 +8,13 @@
 }
 
 #footerNavi li{
-  padding-left: 30px;
   display: inline;
-  text-align: left;
+  margin-left: 1px;
+}
+
+#footerNavi{
+  color: white;
+  padding-left:16%;
 }
 
 a:link,a:visited{
@@ -18,11 +22,19 @@ a:link,a:visited{
 }
 
 a:hover{
-  color: blue;
+  color: orange;
 }
 
 #Copyright{
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.footer_linktag{
+  text-decoration: none;
+}
+
+.footer_linktag:hover{
+  color: orange;
 }

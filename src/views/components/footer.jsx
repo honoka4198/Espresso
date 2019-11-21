@@ -8,19 +8,26 @@ class Footer extends React.Component {
       <BrowserRouter>
         <div className="footer">
           <ul id="footerNavi">
-            <li><Link to="question">よくあるご質問</Link></li><li>|</li>
-            <li><Link to="payment_methods">お支払い方法</Link></li><li>|</li>
-            <li><Link to="delivery_charge">配送料について</Link></li><li>|</li>
-            <li><Link to="TOS">ご利用規約</Link></li><li>|</li>
-            <li><Link to="notation">特定商取引法に基づく表記</Link></li><li>|</li>
-            <li><Link to="policy">プライバシー＆セキュリティーポリシー</Link></li>
+            <Linktag id="question" name="よくあるご質問"/>
+            <Linktag id="payment_methods" name="お支払方法"/>
+            <Linktag id="delivery_charge" name="配送料について"/>
+            <Linktag id="TOS" name="ご利用規約"/>
+            <Linktag id="notation" name="特定商取引法に基づく表記"/>
+            <Linktag id="policy" name="プライバシー＆セキュリティーポリシー"/>
           </ul>
           <p id="Copyright">Copyright @ 2019 coffee shop.</p>
         </div>
       </BrowserRouter>
     );
-    
   }
+}
+
+function Linktag(props) {
+  return(
+    <li>
+      <Link to={props.id} className="footer_linktag">{props.name}</Link>
+    </li>
+  )
 }
 
 export default Footer;
