@@ -1,7 +1,6 @@
 import React from 'react'
 import "../../styles/components/header.css"
 import { BrowserRouter, Route, Link } from 'react-router-dom'
-import App from '../App'
 
 class Header extends React.Component {
   render() {
@@ -13,7 +12,6 @@ class Header extends React.Component {
             <ul className="header_ul">
               <li className="home_btn">
                 <Link to="/home">ホーム</Link>
-                <Route exact path='/Home' component={App} />
               </li>
               <li className="search_btn">
                 <Link to="/search">商品一覧</Link>
