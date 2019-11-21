@@ -10,21 +10,11 @@ class Header extends React.Component {
           <div className="box">
             <a href="#" align="left"><img src="favicon.ico" /></a>
             <ul className="header_ul">
-              <li className="home_btn">
-                <Link to="/home">ホーム</Link>
-              </li>
-              <li className="search_btn">
-                <Link to="/search">商品一覧</Link>
-              </li>
-              <li className="login_btn">
-                <Link to="/login">ログイン</Link>
-              </li>
-              <li className="shopping_btn">
-                <Link to="/shopping">お買い物かご</Link>
-              </li>
-              <li className="info_btn">
-                <Link to="/info">お問い合わせ</Link>
-              </li>
+              <Linktag id="/home" name="ホーム"/>
+              <Linktag id="/search" name="商品一覧"/>
+              <Linktag id="/login" name="ログイン"/>
+              <Linktag id="/shopping" name="お買い物かご"/>
+              <Linktag id="/info" name="お問い合わせ"/>
             </ul>
           </div>
         </div>
@@ -32,6 +22,14 @@ class Header extends React.Component {
 
     )
   }
+}
+
+function Linktag(props) {
+  return(
+    <li>
+      <Link to={props.id} className="linktag">{props.name}</Link>
+    </li>
+  )
 }
 
 export default Header;

@@ -24,7 +24,11 @@ li {
   padding-right: 30px;
 }
 
-a{
-  color: white;
+
+.linktag{
   text-decoration: none;
+}
+
+.linktag:hover{
+  color: orange;
 }
