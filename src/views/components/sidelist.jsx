@@ -16,7 +16,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 material-uiを使用してます
 npm install --save material-ui必須。*/
 
-const drawerWidth = 215; //横幅
+const drawerWidth = 200; //横幅
 
 const useStyles = makeStyles(theme => ({
 
@@ -57,7 +57,7 @@ export default function Sidelist() {
           paper: classes.drawerPaper,
         }}
       >
-        
+
       <Button variant="contained" backgroundcolor="primary" color="primary" size="large" className="home_btn">
         <Link to="/home">Espresso</Link>
       </Button>
