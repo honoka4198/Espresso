@@ -12,8 +12,7 @@ class App extends Component {
          <Header />
        </header>
        <main>
-
-         
+         <Sidelist />
        </main>
          <Signup_Form />
        <footer>
