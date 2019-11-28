@@ -15,6 +15,7 @@
 #footerNavi{
   color: white;
   padding-left:16%;
+  display: flex;
 }
 
 a:link,a:visited{
