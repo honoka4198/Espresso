@@ -1,0 +1,26 @@
+.page-title-bg-wrap {
+    width: 100%;
+}
+
+.page-title-bg-wrap__inner .page-title-wrap {
+    padding-left: 240px;
+    padding-top: 50px;
+}
+  
+.page-title-bg-wrap .breadcrumbs-list li,
+.page-title-bg-wrap .breadcrumbs-list a {
+    color:rgb(65, 57, 11);
+}
+
+.page-title{
+    color:rgb(65, 57, 11);
+    border-bottom-style: solid;
+}
+
+.mod-panel-layout > li,
+.mod-panel-layout > div,
+.mod-panel-layout > section {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
