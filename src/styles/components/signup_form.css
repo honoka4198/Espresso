@@ -1,0 +1,29 @@
+/*新規登録フォームのマージン設定*/
+.mar-right{
+    margin-right: 7%;
+}
+
+.pad-gender{
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.pad-mail{
+    padding-right: 18%;
+    padding-left: 18%;
+}
+
+.line-H{
+    line-height: 1.5em
+}
+
+/*例)などのフォント指定*/
+.attention{
+    font-size: 11px;
+    color: darkgray;
+}
+
+/*真ん中揃え*/
+.center{
+    text-align: center;
+}

@@ -6,7 +6,6 @@ class Sidelist extends React.Component {
     return (
         <div className="sidelist">
           <div className="sidelistbox">
-            {/*<a href="#" align="left"><img src="favicon.ico" /></a>*/}
             <ul className="sidelist_ul">
               <div id="menu">
                   <Linktag id="beans" name="焼豆"/>
@@ -20,6 +19,7 @@ class Sidelist extends React.Component {
               <div className="sidelist_space"></div>
           </div>
         </div>
+
     )
   }
 }

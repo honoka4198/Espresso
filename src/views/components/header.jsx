@@ -1,11 +1,10 @@
 import React from 'react'
 import "../../styles/components/header.css"
-import { BrowserRouter, Link } from 'react-router-dom'
+import {Link ,Route} from 'react-router-dom'
 
 class Header extends React.Component {
   render() {
     return (
-      <BrowserRouter>
         <div className="header">
           <div className="box">
             <a href="#" align="left"><img src="favicon.ico" /></a>
@@ -18,7 +17,6 @@ class Header extends React.Component {
             </ul>
           </div>
         </div>
-    </BrowserRouter>
 
     )
   }

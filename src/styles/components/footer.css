@@ -4,7 +4,9 @@
   background: rgb(122, 87, 20);
   font-size: 75%;
   color: white;
-  position: relative;
+  bottom: 0px;
+  position: absolute;
+  padding: 10px 0;
 }
 
 #footerNavi li{
@@ -15,6 +17,7 @@
 #footerNavi{
   color: white;
   padding-left:16%;
+  display: flex;
 }
 
 a:link,a:visited{
