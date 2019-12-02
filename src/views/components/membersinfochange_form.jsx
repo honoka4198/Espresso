@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Prefectures from '../../views/components/gear_components/prefectures_selectbox.jsx';
+import SecretQestionSelectbox from '../../views/components/gear_components/secret_question_selectbox.jsx';
 import '../../styles/components/signup_form.css';
 
 class MemberInfoChange extends Component {
@@ -61,6 +62,15 @@ class MemberInfoChange extends Component {
                         </tr>
                         <tr>
                             <td><input type="text" maxLength="100" size="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <SecretQestionSelectbox />
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <input type="buttom" name="answer" size="60" />
                         </tr>
                         <tr>
                             <td>郵便番号</td>
