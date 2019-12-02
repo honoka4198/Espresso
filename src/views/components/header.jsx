@@ -1,12 +1,10 @@
 import React from 'react'
 import "../../styles/components/header.css"
-import { BrowserRouter, Link ,Route} from 'react-router-dom'
-import Seachbar from './searchbar';
+import {Link ,Route} from 'react-router-dom'
 
 class Header extends React.Component {
   render() {
     return (
-      <BrowserRouter>
         <div className="header">
           <div className="box">
             <a href="#" align="left"><img src="favicon.ico" /></a>
@@ -17,10 +15,8 @@ class Header extends React.Component {
               <Linktag id="shopping" name="お買い物かご"/>
               <Linktag id="info" name="お問い合わせ"/>
             </ul>
-            <Route path="/search" component={Seachbar} />
           </div>
         </div>
-    </BrowserRouter>
 
     )
   }
