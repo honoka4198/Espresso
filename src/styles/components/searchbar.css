@@ -1,0 +1,32 @@
+.searchbar {
+	padding: 5px 0;
+	margin: 10px 250px;
+	background: #ffffff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+}
+.searchbar div.section{
+    color:rgb(65, 57, 11);
+	padding: 10px 0;
+	margin-bottom: 0; 
+	border-bottom: 1px solid #C1B387;
+}
+.searchbar div.section .search_category_id{ 
+    margin: 5px 0;
+    float: left;
+}
+.searchbar div.section .search_sales_price{ 
+    margin: 5px 0;
+    float: left;
+}
+
+.search-btn{
+    padding: 10px 30px;
+	text-align: center;
+}
+
+.js-action-submit{
+    font-size: 1.4em;
+    width: 100px;
+}

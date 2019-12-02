@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../styles/components/header.css"
-import { BrowserRouter, Link } from 'react-router-dom'
+import { BrowserRouter, Link ,Route} from 'react-router-dom'
+import Seachbar from './searchbar';
 
 class Header extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class Header extends React.Component {
               <Linktag id="shopping" name="お買い物かご"/>
               <Linktag id="info" name="お問い合わせ"/>
             </ul>
+            <Route path="/search" component={Seachbar} />
           </div>
         </div>
     </BrowserRouter>
