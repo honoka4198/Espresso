@@ -1,0 +1,32 @@
+.faq-wrap{
+    color: rgb(122, 87, 20);
+    padding-left: 240px;
+}
+
+.toggle-accordion{
+    font-weight: bold;
+}
+
+a:link.question_linktag,a:visited.question_linktag{
+    color: rgb(122, 87, 20);
+}
+
+a:hover.question_linktag{
+    color: orange;
+}
+
+.panel-layout{
+    padding-left: 230px;
+}
+
+.question_linktag{
+    text-decoration: none;
+}
+
+.panel-layout > li,
+.panel-layout > div,
+.panel-layout > section {
+    display: inline;
+    margin: 0;
+    padding-left: 10px;
+}
