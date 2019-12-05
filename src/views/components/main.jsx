@@ -8,8 +8,6 @@ class Main_view extends React.Component {
     return (
         <div className="main">
             <Route path="/search" component={Seachbar} />
-            <Route path="/login" component={Login} />
-
         </div>
 
     )

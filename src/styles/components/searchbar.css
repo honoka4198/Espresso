@@ -5,18 +5,19 @@
 	border-radius: 10px;
 	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
 	-moz-border-radius: 10px;	/* Firefox用 */
+	min-width: 500px;
 }
 .searchbar div.section{
     color:rgb(65, 57, 11);
 	padding: 10px 0;
-	margin-bottom: 0; 
+	margin-bottom: 0;
 	border-bottom: 1px solid #C1B387;
 }
-.searchbar div.section .search_category_id{ 
+.searchbar div.section .search_category_id{
     margin: 5px 0;
     float: left;
 }
-.searchbar div.section .search_sales_price{ 
+.searchbar div.section .search_sales_price{
     margin: 5px 0;
     float: left;
 }
