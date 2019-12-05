@@ -1,5 +1,6 @@
 import React from 'react'
 import "../../styles/components/sidelist.css"
+import {Link ,Route} from 'react-router-dom'
 
 class Sidelist extends React.Component {
   render() {

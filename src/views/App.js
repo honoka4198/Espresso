@@ -13,7 +13,7 @@ class App extends Component {
          <header>
            <Header />
          </header>
-         <main >
+         <main>
             <Sidelist />
             <Main_view />
          </main>
