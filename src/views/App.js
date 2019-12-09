@@ -5,6 +5,7 @@ import Sidelist from './components/sidelist';
 import Main_view from './components/main';
 import { BrowserRouter, Link ,Route} from 'react-router-dom'
 
+
 class App extends Component {
   render() {
     return (
