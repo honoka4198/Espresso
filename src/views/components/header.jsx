@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../styles/components/header.css"
-import {Link ,Route} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Header extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class Header extends React.Component {
           <div className="box">
             <a href="#" align="left"><img src="favicon.ico" /></a>
             <ul className="header_ul">
-              <Linktag id="home" name="ホーム"/>
+              <Linktag id="/" name="ホーム"/>
               <Linktag id="search" name="商品一覧"/>
               <Linktag id="login" name="ログイン"/>
               <Linktag id="shopping" name="お買い物かご"/>
