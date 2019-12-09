@@ -1,0 +1,28 @@
+.pad{
+    padding-right: 5px;
+}
+
+.bor{
+    font-size: 35px;
+    margin-right: 200px;
+    border-bottom: 1px solid black;
+    border-color: black;
+}
+
+a.list-setting{
+    border-radius: 10px;
+    color: maroon;
+    background-color: burlywood;
+    margin: 20px 20px 20px 500px;
+    padding: 5px 5px 5px 5px;
+}
+
+a.linkcol{
+    color: maroon;
+}
+
+.d-box{
+    line-height: 2em;
+    margin: 10px 200px;
+    padding: 25px 50px;
+}
