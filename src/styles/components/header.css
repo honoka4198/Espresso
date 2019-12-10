@@ -15,7 +15,7 @@
 }
 
 li {
-  padding: 0 10px;
+  padding: 0 20px;
   /* border-right: #ddd 1px solid; */
 }
 
@@ -31,4 +31,34 @@ li {
 
 .linktag:hover{
   color: orange;
+}
+
+/*マイページの設定*/
+.header_ul ul{
+  position: absolute;
+}
+.header_ul li{
+  list-style: none;
+}
+
+.header_ul li a{
+  display: table-cell;
+}
+
+.header_ul li li{
+  height: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.header_ul li li Link{
+  border-top: 1px solid #eee;
+}
+
+.header_ul li:hover > ul > li{
+  line-height: 1.5em;
+  background-color: darkolivegreen;
+  border-bottom: 1px solid white;
+  height: 2rem;
+  overflow: visible;
 }
