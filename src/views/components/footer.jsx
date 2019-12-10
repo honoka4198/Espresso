@@ -1,15 +1,14 @@
 import React from 'react'
 import '../../styles/components/footer.css';
-import { BrowserRouter,Link } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 
 class Footer extends React.Component {
   render() {
     return (
-      <BrowserRouter>
         <div className="footer">
           <ul id="footerNavi">
             <Linktag id="question" name="よくあるご質問"/>
-            <Linktag id="payment_methods" name="お支払方法"/>
+            <Linktag id="payment" name="お支払方法"/>
             <Linktag id="delivery_charge" name="配送料について"/>
             <Linktag id="TOS" name="ご利用規約"/>
             <Linktag id="notation" name="特定商取引法に基づく表記"/>
@@ -17,7 +16,6 @@ class Footer extends React.Component {
           </ul>
           <p id="Copyright">Copyright @ 2019 coffee shop.</p>
         </div>
-      </BrowserRouter>
     );
   }
 }

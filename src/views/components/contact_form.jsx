@@ -4,7 +4,6 @@ import '../../styles/components/contact.css';
 class Contact_form extends React.Component{
     render(){
         return(
-            
             <div id = "contact_form" align="center">
                 <form name="contact" method="post">
                 <p>

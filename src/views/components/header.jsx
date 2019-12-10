@@ -7,9 +7,9 @@ class Header extends React.Component {
     return (
         <div className="header">
           <div className="box">
-            <a href="#" align="left"><img src="favicon.ico" /></a>
+            <a href="home" align="left"><img src="favicon.ico" /></a>
             <ul className="header_ul">
-              <Linktag id="/" name="ホーム"/>
+              <Linktag id="/home" name="ホーム"/>
               <Linktag id="search" name="商品一覧"/>
               <Linktag id="login" name="ログイン"/>
               <Linktag id="shopping" name="お買い物かご"/>
