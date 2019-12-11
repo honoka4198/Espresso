@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "../../../styles/components/home_form.css";
-import FeatureCoffee1 from "../../../image/sweets_coffee.jpg";
-import FeatureCoffee2 from "../../../image/Coffee_item_feauture.jpg";
-import FeatureCoffee3 from "../../../image/coffee.jpg";
 
 class Feature extends Component{
     render() {
@@ -14,9 +11,9 @@ class Feature extends Component{
                 <table>
                     <tr>
                         <td class="pad">
-                            <Flink id="SweetCoffee" /><img src={FeatureCoffee1} />
-                            <Flink id="HomeCoffee" /><img src={FeatureCoffee2} />
-                            <Flink id="CoffeeItem" /><img src={FeatureCoffee3} />
+                            <Flink id="SweetCoffee" /><img src="image/sweets_coffee.jpg" />
+                            <Flink id="HomeCoffee" /><img src="image/Coffee_item_feauture.jpg" />
+                            <Flink id="CoffeeItem" /><img src="image/coffee.jpg" />
                         </td>
                     </tr>
                 </table>

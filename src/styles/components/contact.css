@@ -1,0 +1,28 @@
+
+#center{
+    text-align: center;
+}
+#contact_inquiry{
+  width: 300px;
+  height: 100px;
+}
+#mgr-1{
+    margin-right : 30px;
+}
+#mgr-2{
+    margin-right : 20px;
+}
+
+
+#contact_form {
+    padding: 0.5em 1em;
+    margin:  500px;
+    font-weight: bold;
+    border: solid 3px #000000;
+    width: 500px;
+}
+
+#contact_form p {
+    margin: 0;
+    padding: 0;
+}

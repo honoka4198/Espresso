@@ -1,11 +1,10 @@
 import React from 'react'
 import "../../styles/components/sidelist.css"
-import { BrowserRouter, Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Sidelist extends React.Component {
   render() {
     return (
-      <BrowserRouter>
         <div className="sidelist">
           <div className="sidelistbox">
             <ul className="sidelist_ul">
@@ -18,9 +17,9 @@ class Sidelist extends React.Component {
                   <Linktag id="equipmentexpendables" name="備品・消耗品"/>
               </div>
             </ul>
+              <div className="sidelist_space"></div>
           </div>
         </div>
-    </BrowserRouter>
 
     )
   }

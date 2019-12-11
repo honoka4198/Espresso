@@ -1,0 +1,45 @@
+.payment-nav{
+    padding: 50px 50px;
+    margin: 20px 20px 50px 230px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(65, 57, 11);
+}
+
+.txt-note {
+    color: #ce414c;
+}
+
+.section-contents__box__block {
+    border: 5px solid #e5e5e5;
+    padding: 20px;
+}
+
+.section-contents__block {
+    padding: 15px 0;
+}
+
+.cost-table {
+    border-top: 1px solid #dfd8c7;
+    border-right: 1px solid #dfd8c7;
+    margin: 0 0 15px;
+  }
+  
+  .cost-table th,
+  .cost-table td {
+    border-bottom: 1px solid #dfd8c7;
+    border-left: 1px solid #dfd8c7;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+  
+  .cost-table th {
+    width: 160px;
+    background: #f6f3ee;
+    font-weight: bold;
+  }
+  
+  .cost-table td {
+    width: 355px;
+  }
