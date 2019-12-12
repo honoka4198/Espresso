@@ -4,7 +4,7 @@ import "../../styles/components/cart.css"
 class Cart extends React.Component{
     render(){
         return(
-            <div id = "cart" align="center">
+            <div className = "cart" align="center">
                  <table border = "1">
                     <tr>
                         <td colSpan="2" width="300">カート内商品</td> 
