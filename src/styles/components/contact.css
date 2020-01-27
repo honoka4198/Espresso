@@ -15,14 +15,23 @@
 
 
 #contact_form {
-    padding: 0.5em 1em;
-    margin:  500px;
+    padding: 0.5em 1em 0 3em ;
+    margin:  -150px 0 0 -200px;  /*縦横の半分をネガティブマージンでずらす*/
     font-weight: bold;
     border: solid 3px #000000;
     width: 500px;
+    position: absolute;  /*body要素に対して絶対配置*/
+  top: 50%;  /*上端を中央に*/
+  left: 50%;  /*左端を中央に*/
+  width: 450px;  /*横幅*/
+  height: 350px;  /*縦幅*/
+  
 }
 
-#contact_form p {
-    margin: 0;
-    padding: 0;
+#contact_form_p {
+    text-align: center  ;
+    padding: 20em 1em 0 12em ;
+    margin:  0 0 0 -50px;  /*縦横の半分をネガティブマージンでずらす*/
+    width: 200;
+    
 }

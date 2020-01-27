@@ -4,11 +4,12 @@ import '../../styles/components/contact.css';
 class Contact_form extends React.Component{
     render(){
         return(
-            <div id = "contact_form" align="center">
+            <div id="contact_form">
+            <div id = "contact_form_P" align="center">
                 <form name="contact" method="post">
-                <p>
+                <p >
                     <h1>お問い合わせ</h1>
-                    <table cellpadding="3">
+                    <table cellpadding="3" >
                         <tr>
                             <td>　  <span id="mgr-1">お名前　</span><span id="mgr-2">: </span>
                                 <input type="text" name="contact_user_name" maxLength="50" />
@@ -35,6 +36,7 @@ class Contact_form extends React.Component{
                     </table>
                     </p>
                 </form>
+            </div>
             </div>
         );
     }
